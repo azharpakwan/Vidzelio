@@ -1,0 +1,6 @@
+{
+  "name": "VidZelio - Video Sharing & Creator Monetization Platform",
+  "description": "Watch, create, and earn on VidZelio. Modern mobile-first video sharing platform with Cloudflare Stream integration, verified view validation, creator studio, and ad revenue sharing.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

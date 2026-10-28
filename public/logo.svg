@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" width="120" height="120" fill="none">
+  <defs>
+    <linearGradient id="vz_bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#2563eb" />
+      <stop offset="60%" stop-color="#1d4ed8" />
+      <stop offset="100%" stop-color="#0f172a" />
+    </linearGradient>
+    <linearGradient id="vz_play" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#60a5fa" />
+      <stop offset="100%" stop-color="#ffffff" />
+    </linearGradient>
+    <filter id="vz_glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="4" stdDeviation="6" flood-color="#2563eb" flood-opacity="0.45" />
+    </filter>
+  </defs>
+  <!-- Modern Geometric Rounded Hexagon / Shield -->
+  <rect x="12" y="12" width="96" height="96" rx="28" fill="url(#vz_bg)" filter="url(#vz_glow)" />
+  <rect x="14" y="14" width="92" height="92" rx="26" stroke="#3b82f6" stroke-width="1.5" stroke-opacity="0.35" fill="none" />
+  
+  <!-- Dynamic VidZelio "V" faceted into Play triangle -->
+  <path d="M48 38L78 60L48 82V38Z" fill="url(#vz_play)" />
+  <path d="M48 38L62 60L48 68V38Z" fill="#ffffff" fill-opacity="0.3" />
+</svg>
